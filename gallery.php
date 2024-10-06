@@ -17,31 +17,31 @@ include('includes/navbar.php');
         </button>
       </div>
 
-<!--insertion-->
+      <!--insertion-->
 
- <form action="code.php" method="POST" enctype="multipart/form-data">     
-      <div class="modal-body">
+      <form action="code.php" method="POST" enctype="multipart/form-data">     
+            <div class="modal-body">
 
 
-        <div class="from-group">
-            <label> Description </label>
-            <input type= "text" name="description" class="form-control" placeholder="Enter Description">
-        </div>
+              <div class="from-group">
+                  <label> Description </label>
+                  <input type= "text" name="description" class="form-control" placeholder="Enter Description">
+              </div>
 
-        <div class="from-group">
-            <label> Upload an image </label>
-           <!-- <input type= "file" name="gallery_images" id="gallery_images" accept=".jpg, .jpeg, .png"
-              class="form-control" > -->
+              <div class="from-group">
+                  <label> Upload an image </label>
+                <!-- <input type= "file" name="gallery_images" id="gallery_images" accept=".jpg, .jpeg, .png"
+                    class="form-control" > -->
 
-              <input type="file" name="image" accept="image/jpg, image/jpeg, image/png" class="form-control" required>
-        </div>
+                    <input type="file" name="image" accept="image/jpg, image/jpeg, image/png" class="form-control" required>
+              </div>
 
-      </div>
-      <div class="modal-footer">
-        <a href="gallery.php" class="btn btn-danger"> Close </a>
-        <button type="submit" name="gallery_save" class="btn btn-primary">Save</button>
-      </div>
-</form>  
+            </div>
+            <div class="modal-footer">
+              <a href="gallery.php" class="btn btn-danger"> Close </a>
+              <button type="submit" name="gallery_save" class="btn btn-primary">Save</button>
+            </div>
+      </form>  
     </div>
   </div>
 </div>
